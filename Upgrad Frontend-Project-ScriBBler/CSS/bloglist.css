@@ -1,0 +1,331 @@
+body{
+    background-color: orange;
+}
+
+/* Set a style in Btn and LOGO*/
+.sign {
+    right: 0.5%;
+    top: 1%;
+    position: absolute;
+}
+
+.btn {
+    background-color: #2519ff;
+    color: white;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.heading1 {
+    font-family: 'Satisfy';
+    font-size: 50px;
+    color: #2519ff;
+    margin: 0px;
+    position: relative;
+    left: 20px;
+    width: 50%;
+}
+
+.heading2 {
+    font-family: 'Marck Script';
+    font-size: 15px;
+    color: white;
+    position: relative;
+    left: 20px;
+    width: 50%;
+}
+
+.postButtons {
+    position: fixed;
+    left: 45%;
+    top: 50%;
+}
+
+.btn1 {
+    background-color: #f0c000;
+    color: black;
+    padding: 10px 10px;
+    margin-left: 10px;
+}
+
+/*All Post And Creat Post CSS*/
+
+.text-center{
+    position: fixed;
+    top: 40%;
+    left: 52%;
+    transform:translate(-50%);
+    width:20%;
+    text-decoration: none;
+    border-color:white;
+}
+
+.buttn{
+    width:auto;
+    height: 40px;
+    padding: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight:bold;
+    font-size: 90%;
+    background: #cfb027;
+    color: rgb(17, 1, 1);             
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: silver;
+    
+          
+}
+
+
+/*Modal CSS*/
+.modal, .modal1{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content , .modal-content1 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 25%;
+  }
+  
+  /* The Close Button */
+  .close,.close1 ,.close2 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus ,
+  
+  .close1:focus,
+  .close1:hover
+  {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  /*Forms CSS*/
+
+  .h1{
+    text-align: center;
+  }
+
+  .vishal{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  p{
+    text-align: center;
+  }
+
+/* font colour for the tag line */
+#tagline {
+    color: rgb(238, 235, 238);
+}
+
+.postPair {
+    display: inline-block;
+    display: flex;
+    vertical-align: center;
+
+}
+
+.Post-content {
+    display: flex;
+    width: 45%;
+    margin: auto;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    height: 180px;
+}
+
+#bPost5 {
+    display: flex;
+    width: 40%;
+    margin: auto;
+    margin-top: 1%;
+    margin-left: 29%;
+    margin-right: 25%;
+    height: 180px;
+}
+
+.user {
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 35%;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.postHead {
+    font-size: 22px;
+    font-family: 'Itim', cursive;
+    padding: 5% 10% 0 3%;
+    font-weight: bold;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 55%;
+    margin-bottom: 48%;
+
+}
+
+.content {
+    background-color: rgb(232, 232, 232);
+    border-radius: 0px 12px 12px 0px;
+    overflow: hidden;
+    padding-left: 5px;
+}
+
+.comment {
+    height: 70px;
+    margin: 10px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    overflow: hidden;
+}
+
+.fa {
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: block;
+    border: none;
+}
+
+.fa:hover {
+    color: red;
+    cursor: pointer;
+
+}
+
+#dots {
+    position: relative;
+    color: black;
+    bottom: -130px;
+    right: -25px;
+    font-weight: 700;
+}
+
+* {
+    box-sizing: border-box
+}
+
+/* Float cancel and delete buttons and add an equal width */
+.cancelbtn,
+.deletebtn {
+    float: left;
+    width: 45%;
+    border: none;
+    padding: 10px 2px;
+    margin: 8px 0;
+    font-weight: 700;
+}
+
+/* Add a color to the cancel button */
+.cancelbtn {
+    background-color: rgb(31, 212, 25);
+    color: white;
+    margin-left: 5%;
+}
+
+/* Add a color to the delete button */
+.deletebtn {
+    background-color: #f44336;
+    margin-right: 5%;
+}
+
+/* Add padding and center-align text to the container */
+.choiceContainer {
+    padding: 16px;
+    text-align: center;
+}
+
+/* The Modal (background) */
+.modal3 {
+    display: none;
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.box-content {
+    background-color: #fefefe;
+    position:fixed;
+    left: 575px;
+    top: 250px;
+    border: 1px solid #888;
+    width: 25%;
+    height: 15%;
+}
+
+/* Clear floats */
+.clearfix::after {
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width:600px) {
+    #id05 {
+        width: 250%;
+        transform: translate(-30%);
+    }
+
+}

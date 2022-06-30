@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- TODO: Include Font Awesome file here -->
+    <link href='../CSS/font.css' rel='stylesheet' type='text/css'>
+    <!-- TODO: Include Google Fonts file here -->
+    <link rel="stylesheet" href="../CSS/index.css">
+</head>
+
+<body>
+    <!-- TODO: Include all your code for the header and home page here -->
+    <div id="container-div">
+
+        <div class="header">
+
+            <!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
+            <div class="sign">
+                <button class="btn" id="in">Sign In</button>
+                <button class="btn" id="up">Sign Up</button>
+            </div>
+            <!--LOGO-->
+            <div class="heading1">
+                ScriBBler
+            </div>
+            <!--LOGO Text-->
+            <div class="heading2">
+                Explore. Imagine. Create
+            </div>
+        </div>
+
+        <!--All Post AND Create Post Button-->
+        <div class="text-center">
+            <button class="buttn" onclick="document.location='../html/bloglist.html'">All Posts</button>
+            <button type="button" class="buttn" id="create-btn" >Create
+                Posts</button>
+        </div>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+
+                <!--SignIn Form-->
+                <div>
+                    <form>
+                        <h1 class="h1">Welcome Back!</h1>
+                        <hr>
+                        <label>Username</label>
+                        <input type="text" class="vishal" placeholder="Enter Username" required>
+
+                        <label>Password</label>
+                        <input type="password" class="vishal" placeholder="Enter Password" required>
+
+                        <input type="submit" value="Submit" class="submit-bttn">
+                        <p style="margin: 10px; text-align: center; font-weight: 600;">Not a member? <a href="#"
+                                id="resignup" style="color: blue;">Sign Up</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <!--SignUp Form-->
+
+        <!-- The Modal -->
+        <div id="myModal1" class="modal1">
+            <!-- Modal content -->
+            <div class="modal-content1">
+                <span class="close1">&times;</span>
+
+                <!--SignUp Form-->
+                <div>
+                    <form>
+                        <h1 class="h1">Get Started</h1>
+                        <hr>
+                        <label>Full Name</label>
+                        <input type="text" class="vishal" placeholder="Enter Full Name" required>
+
+                        <label>Username</label>
+                        <input type="text" class="vishal" placeholder="Enter Username" required>
+
+                        <label>Password</label>
+                        <input type="password" class="vishal" placeholder="Enter Password" required>
+
+                        <label>Confirm Password</label>
+                        <input type="password" class="vishal" placeholder="Enter Confirm Password" required>
+
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!--Creat Post-->
+        <!-- The Modal -->
+        <div id="myModal2" class="modal2">
+            <!-- Modal content -->
+            <div class="modal-content2">
+                <span class="close2">&times;</span>
+
+                <div>
+                    <form>
+                        <h1 class="h1">Pen Your Post</h1>
+                        <label><b>Title:</b></label>
+                        <input type="password" class="vishal">
+                        <label><b>Content:</b></label>
+                        <textarea class="vishal" rows="12" cols="50"></textarea>
+                        <input type="submit" value="Create">
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--Javascript Adding-->
+    <script src="../Js/index.js"></script>
+</body>
+
+</html>
